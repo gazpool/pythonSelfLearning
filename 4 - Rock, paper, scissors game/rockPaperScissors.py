@@ -18,7 +18,7 @@ while True:
     rNumber = random.randint(0,2)
 # 0 = rock, 1 = paper, 2 = scissors
     computerGuess = options[rNumber]
-    print(f"You picked {userInput}, thd computer picked {computerGuess}...")
+    print(f"You picked {userInput}, the computer picked {computerGuess}...")
 
     if userInput == "rock" and computerGuess == "scissors":
         print("You won!")   
