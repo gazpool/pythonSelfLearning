@@ -54,4 +54,4 @@ if qCount == score:
 		print("Congratulations! You got all the questions correct, give yourself a pat on the back")
 elif score == 0:
 		print("Epic fail!! You got 0 questions correct, go study some more")
-else: print (f"Good effort. You got {score} out of {qCount} ({perc}%) questions correct")
+else: print (f"Good effort. You got {score} out of {qCount} questions correct ({perc}%)")
